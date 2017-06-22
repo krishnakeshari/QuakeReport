@@ -109,9 +109,6 @@ public class EarthquakeAdapter extends ArrayAdapter<Earthquake> {
         // Display the time of the current earthquake in that TextView
         timeView.setText(formattedTime);
 
-//        textView = (TextView) listItemView.findViewById(R.id.date);
-//        textView.setText(currentEarthquake.getDate());
-
         return listItemView;
     }
 
